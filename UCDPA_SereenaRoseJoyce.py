@@ -78,6 +78,8 @@ print(merged_data)
 slicing = merged_data.loc[:, 'movie_name':'rating']
 print(slicing)
 
+functioncl3()
+
 
 
 
