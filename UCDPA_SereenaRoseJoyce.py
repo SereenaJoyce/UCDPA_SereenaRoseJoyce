@@ -103,6 +103,12 @@ for i in range(10):
 sns.displot(filled_data['release_year'])
 plt.show()
 
+# Second graph using Seaborn
+print(data['rating'].value_counts(sort=True))
+sns.countplot(data=filled_data, y='rating',hue='type')
+plt.show()
+
+
 
 
 
