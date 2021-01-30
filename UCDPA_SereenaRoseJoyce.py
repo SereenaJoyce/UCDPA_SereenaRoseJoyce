@@ -50,5 +50,11 @@ print(counting_to_check)
 for lab, row in filled_data.iterrows():
     print(lab + ':' + row['title'])
 
+functioncl()
+
+functioncl2()
+
+
+
 
 
