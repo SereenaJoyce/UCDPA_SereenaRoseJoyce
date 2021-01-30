@@ -32,3 +32,9 @@ def functioncl3():
 sorted_data = data.sort_values('release_year',ascending=False)
 print(sorted_data[['release_year','title']])
 
+
+# To count the missing values in each column
+missing_values=data.isna().sum()
+print(missing_values)
+
+
