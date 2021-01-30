@@ -80,6 +80,13 @@ print(slicing)
 
 functioncl3()
 
+# Numpy
+array=np.array([1,2,3,4,5,6,7,8,9,10])
+array2=array*2
+print(array2)
+
+
+
 
 
 
