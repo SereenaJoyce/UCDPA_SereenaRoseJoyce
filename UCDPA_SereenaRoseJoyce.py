@@ -16,3 +16,10 @@ print(data.head())
 print(data.shape)
 print(data.columns)
 
+# Functions that create reusable code
+def functioncl():
+    print('The number of movies and TV shows release each year is')
+    print(filled_data['release_year'].value_counts(sort=True))
+
+
+
