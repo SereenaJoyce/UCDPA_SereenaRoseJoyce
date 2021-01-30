@@ -21,5 +21,7 @@ def functioncl():
     print('The number of movies and TV shows release each year is')
     print(filled_data['release_year'].value_counts(sort=True))
 
+def functioncl2():
+    print('Now, off we go to play with dictionaries ')
 
 
