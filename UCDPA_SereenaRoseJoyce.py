@@ -70,5 +70,11 @@ df2=pd.DataFrame(dictionary2)
 print(df2)
 
 
+# Merging DataFrames
+merged_data=df1.merge(df2, on='movie_name')
+print(merged_data)
+
+
+
 
 
