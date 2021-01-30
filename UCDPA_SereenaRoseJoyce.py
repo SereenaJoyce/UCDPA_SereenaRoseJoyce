@@ -99,6 +99,11 @@ for i in range(10):
 
 
 
+# First graph using Seaborn
+sns.displot(filled_data['release_year'])
+plt.show()
+
+
 
 
 
