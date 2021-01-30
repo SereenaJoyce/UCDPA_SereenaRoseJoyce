@@ -59,6 +59,9 @@ functioncl2()
 dictionary1 = {'movie_name':['A Holiday Engagement','A Home with a View','A House of Blocks','A kid from Coney Island','A Kind of Murder','A Korean Odyssey', 'A Land Imagined','A Leaf of faith','A Life of Speed:The Juan manual Fangio Story','A Lion in the House'],
                'rating':['TV-G','TV-MA','TV-PG','TV-MA','R','TV-MA','TV-MA','TV-MA','TV-14','TV-14']}
 
+df1=pd.DataFrame(dictionary1)
+print(df1)
+
 
 
 
