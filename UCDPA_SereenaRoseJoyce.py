@@ -24,4 +24,6 @@ def functioncl():
 def functioncl2():
     print('Now, off we go to play with dictionaries ')
 
+def functioncl3():
+    print('Using numbers to illustrate numpy and if loop')
 
