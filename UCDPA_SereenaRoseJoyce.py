@@ -37,4 +37,8 @@ print(sorted_data[['release_year','title']])
 missing_values=data.isna().sum()
 print(missing_values)
 
+# shows data with 0 replaced for null values
+filled_data = data.fillna(0)
+print(filled_data)
+
 
