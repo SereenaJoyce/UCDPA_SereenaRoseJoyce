@@ -66,6 +66,9 @@ print(df1)
 dictionary2 = {'movie_name':['A Holiday Engagement','A Home with a View','A House of Blocks','A kid from Coney Island','A Kind of Murder', 'A Korean Odyssey','A Land Imagined','A Leaf of Faith','A Life of Speed:The Juan manual Fangio Story','A Lion in the House'],
                'release_year':['2011','2019','2017','2019','2016','2017','2019','2018','2020','2006']}
 
+df2=pd.DataFrame(dictionary2)
+print(df2)
+
 
 
 
