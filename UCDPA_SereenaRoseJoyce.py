@@ -86,6 +86,20 @@ array2=array*2
 print(array2)
 
 
+# if loop
+for i in range(10):
+    if i % 3 == 0 and i % 5 == 0:
+        print('The number ' + str(i) + ' gives a remainder 0 when divided by 3 or 5')
+    elif i % 3 == 0:
+        print('The number ' + str(i) + ' is only divisible by 3')
+    elif i % 5 == 0:
+        print('The number ' + str(i) + ' is only divisible by 5')
+    else:
+        print('The number ' + str(i) + ' is neither divisible by 3 or 5')
+
+
+
+
 
 
 
