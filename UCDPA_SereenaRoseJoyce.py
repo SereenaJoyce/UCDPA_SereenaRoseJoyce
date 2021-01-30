@@ -41,4 +41,9 @@ print(missing_values)
 filled_data = data.fillna(0)
 print(filled_data)
 
+# counting to check
+counting_to_check=filled_data.isna().sum()
+print(counting_to_check)
+
+
 
