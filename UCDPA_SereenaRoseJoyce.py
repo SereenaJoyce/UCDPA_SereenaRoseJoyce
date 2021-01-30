@@ -74,6 +74,12 @@ print(df2)
 merged_data=df1.merge(df2, on='movie_name')
 print(merged_data)
 
+# Slicing the merged dataframe
+slicing = merged_data.loc[:, 'movie_name':'rating']
+print(slicing)
+
+
+
 
 
 
