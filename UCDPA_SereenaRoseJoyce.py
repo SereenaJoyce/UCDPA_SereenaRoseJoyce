@@ -27,3 +27,8 @@ def functioncl2():
 def functioncl3():
     print('Using numbers to illustrate numpy and if loop')
 
+
+# Sorting data
+sorted_data = data.sort_values('release_year',ascending=False)
+print(sorted_data[['release_year','title']])
+
