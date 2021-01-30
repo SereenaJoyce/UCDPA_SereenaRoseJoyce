@@ -46,4 +46,9 @@ counting_to_check=filled_data.isna().sum()
 print(counting_to_check)
 
 
+# iterrows
+for lab, row in filled_data.iterrows():
+    print(lab + ':' + row['title'])
+
+
 
