@@ -108,6 +108,12 @@ print(data['rating'].value_counts(sort=True))
 sns.countplot(data=filled_data, y='rating',hue='type')
 plt.show()
 
+# Third graph using Seaborn
+df = filled_data.loc[filled_data['release_year']<2022]
+sns.violinplot(data=df, x='release_year',y='rating')
+plt.show()
+
+
 
 
 
